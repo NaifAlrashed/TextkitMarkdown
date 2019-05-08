@@ -1,0 +1,6 @@
+framework module TextkitMarkdown {
+  umbrella header "TextkitMarkdown-umbrella.h"
+
+  export *
+  module * { export * }
+}
