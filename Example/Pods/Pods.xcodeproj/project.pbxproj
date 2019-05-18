@@ -25,7 +25,6 @@
 		74A9F2E82868F7AD1D039DB8453CAB08 /* Pods-TextkitMarkdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA39AAB6CC41353923A5505624FC06A4 /* Pods-TextkitMarkdown_Example-dummy.m */; };
 		750481A104F48EA1C35794C8AE639A16 /* Pods-TextkitMarkdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6986EE519534C29C99C794C6265F50B7 /* Pods-TextkitMarkdown_Tests-dummy.m */; };
 		7E6E7BD910E2FA446CEBB40A9EDC1A9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD20B0A70073F5532F2A97A52E21549 /* XCTest.framework */; };
-		820333FCCD8488FC9DDD66491EC0F723 /* Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3775F1DC8D1E75D7D30A245C612CC5F /* Bold.swift */; };
 		832DC61A7CA632444CD6DA46EF6491FC /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FAABD9AF2E6F68EEF2B1FE37D6899 /* FBSnapshotTestController.m */; };
 		894DED9EBBD8D71BBBE21659762F2C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AD4F971EF9FF948F2AF22677607F23 /* Foundation.framework */; };
 		8C8CBE0160D700133D554C5EE0DA00CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AD4F971EF9FF948F2AF22677607F23 /* Foundation.framework */; };
@@ -33,6 +32,8 @@
 		90D9B8AE770A4C942E0780C726FF50C2 /* TextkitMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C74E07585CF92A3CE6EFF891C3781F /* TextkitMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C27192424106A71F8CC4CA61A635395 /* MarkdownParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E341F03718350F2293873DBD6FC4045 /* MarkdownParser-dummy.m */; };
 		9D1ED810162612D100883CD352021E05 /* TokenContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E09331B6A5C2076F5B2746C42B78F /* TokenContainer.swift */; };
+		9EFFBB612290379500C7A219 /* Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFBB602290379500C7A219 /* Bold.swift */; };
+		9EFFBB63229037C300C7A219 /* TextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFBB62229037C300C7A219 /* TextRepresentable.swift */; };
 		A48ABF775DDC699A384A9191A373823E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AD4F971EF9FF948F2AF22677607F23 /* Foundation.framework */; };
 		AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053E6B037E5D898514336EEC8E9C152A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA30D2F337EABEF5D6ADB40D65597E0 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,16 +91,16 @@
 /* Begin PBXFileReference section */
 		018AD10743C40FE3B0965395634EE8B6 /* Pods-TextkitMarkdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextkitMarkdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		026227F4928EAAC5E0BCF966E31E70FD /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		036D98C20F486284052C54871A6F45FE /* Pods_TextkitMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TextkitMarkdown_Example.framework; path = "Pods-TextkitMarkdown_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036D98C20F486284052C54871A6F45FE /* Pods_TextkitMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextkitMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		053E6B037E5D898514336EEC8E9C152A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		0E83A494798E20B3DB07FC4E0E7E3C2B /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		103F5C11ACCF1C341BD6C35FF4D5F55B /* Pods-TextkitMarkdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextkitMarkdown_Example-umbrella.h"; sourceTree = "<group>"; };
 		10CE2D46FB18055D78A7DBC7698D8B48 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		17F059BD43E3EEA4AF724C7A92FB8C17 /* Pods-TextkitMarkdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextkitMarkdown_Tests.modulemap"; sourceTree = "<group>"; };
 		1A57C755329AF7C961747736468B8003 /* Pods-TextkitMarkdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextkitMarkdown_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1EBFC209E00C41A39BB029AD90F848F6 /* TextkitMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TextkitMarkdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EBFC209E00C41A39BB029AD90F848F6 /* TextkitMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TextkitMarkdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2AA49338780AEDF43EAAD34B32EF9D40 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
-		2E8D5403E2B667BE9B0FABEDCF8DD82B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E8D5403E2B667BE9B0FABEDCF8DD82B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		31E34C3FC51E7EA4096F4801F514F1C6 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		33846233822C5ECF251EAE9EDD793750 /* MarkdownParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkdownParser.xcconfig; sourceTree = "<group>"; };
 		34D4A98AEF45129E0E3EF849F7AB9D14 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -117,7 +118,7 @@
 		5CDBCBA02303A0B791B43C84F291D901 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		5FA30D2F337EABEF5D6ADB40D65597E0 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		632EE2801B274D5B9CD1748EA3234FAE /* Pods-TextkitMarkdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextkitMarkdown_Example.modulemap"; sourceTree = "<group>"; };
-		64F8C566902BAAFC18F6C5B1C5E9904E /* Pods_TextkitMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TextkitMarkdown_Tests.framework; path = "Pods-TextkitMarkdown_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F8C566902BAAFC18F6C5B1C5E9904E /* Pods_TextkitMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextkitMarkdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D77ADF960FC359507534AE379491BF /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		66281960FC224E0601378644894CE149 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		682974F85D52970320A1C9D93C5A0720 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -125,16 +126,18 @@
 		6AA761333DEB47221BA79C7660BF9E57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		6BC07DAAF1092572A42025A35A132A13 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		6DB780E585E8CD44270AB9C3C2DD0798 /* Pods-TextkitMarkdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextkitMarkdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77231CCE7BBEF6C3E57EBC1EEEB4314A /* MarkdownParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarkdownParser.framework; path = MarkdownParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77231CCE7BBEF6C3E57EBC1EEEB4314A /* MarkdownParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkdownParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		790378F5858316BD102DDFFEA28C90E4 /* Pods-TextkitMarkdown_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextkitMarkdown_Example-Info.plist"; sourceTree = "<group>"; };
-		7AAC180F6BACB01C58C8F4C3C2A4A641 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F0CAF0595EFE6E890D1C3E339A7DFAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7AAC180F6BACB01C58C8F4C3C2A4A641 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0CAF0595EFE6E890D1C3E339A7DFAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96A8807B9DBFE8D417B6480F73C8F916 /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Lexer/Token.swift; sourceTree = "<group>"; };
 		96F6B7B43B3CA6E7D159C877D97C8E10 /* TextkitMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextkitMarkdown-Info.plist"; sourceTree = "<group>"; };
 		9731BEB86AEF62B7786050CA4A3BB624 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Parser/Document.swift; sourceTree = "<group>"; };
 		9A4820E5A6F85E0B48DFEBFDC582EDB3 /* Pods-TextkitMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextkitMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C7AC0BCC5F94F09B15839619B2C32CF /* MarkdownParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarkdownParser-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFFBB602290379500C7A219 /* Bold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bold.swift; sourceTree = "<group>"; };
+		9EFFBB62229037C300C7A219 /* TextRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRepresentable.swift; sourceTree = "<group>"; };
 		A0C43537216A665A060335D2294993BB /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		ADD20B0A70073F5532F2A97A52E21549 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AE7E09331B6A5C2076F5B2746C42B78F /* TokenContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenContainer.swift; path = Sources/Lexer/TokenContainer.swift; sourceTree = "<group>"; };
@@ -155,8 +158,7 @@
 		E57FE26507251157B284626C84152F4D /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Lexer/Lexer.swift; sourceTree = "<group>"; };
 		EBA9CD97DE73420ED3B1D33907EC64CA /* Pods-TextkitMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextkitMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2AC1D452690E0ED5B0261C341D20A75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F2FB6FEE72A52CEC3DF94F443FA1E248 /* TextkitMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextkitMarkdown.framework; path = TextkitMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3775F1DC8D1E75D7D30A245C612CC5F /* Bold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bold.swift; path = Sources/Bold.swift; sourceTree = "<group>"; };
+		F2FB6FEE72A52CEC3DF94F443FA1E248 /* TextkitMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextkitMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1228D504A519DBEA74220CD0D38DBD /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		FACADBCF8BE25DEC819182419A4B9D05 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +214,7 @@
 		00FCA03C0E0A050A01305E0D40DEC338 /* TextkitMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				F3775F1DC8D1E75D7D30A245C612CC5F /* Bold.swift */,
+				9EFFBB5F2290379500C7A219 /* Sources */,
 				7701A10AA1105207FACD867B5E017499 /* Pod */,
 				D3E902A9BBF1411A7A57AA420598986E /* Support Files */,
 			);
@@ -260,7 +262,6 @@
 				AE7E09331B6A5C2076F5B2746C42B78F /* TokenContainer.swift */,
 				8501035BB7A4BA1BA04D94DC81B19E65 /* Support Files */,
 			);
-			name = MarkdownParser;
 			path = MarkdownParser;
 			sourceTree = "<group>";
 		};
@@ -340,6 +341,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9EFFBB5F2290379500C7A219 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFBB602290379500C7A219 /* Bold.swift */,
+				9EFFBB62229037C300C7A219 /* TextRepresentable.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		A62B3AFE4D586609E9F4FBA8A09E120F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,7 +416,6 @@
 				86C324924628DC7E9522801EC1936448 /* Support Files */,
 				B872A848667E5EB554DA3DACAB445BE6 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -592,6 +601,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -696,8 +706,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				820333FCCD8488FC9DDD66491EC0F723 /* Bold.swift in Sources */,
+				9EFFBB63229037C300C7A219 /* TextRepresentable.swift in Sources */,
 				1E79EE23CFCB08A8143B9642C87B87AD /* TextkitMarkdown-dummy.m in Sources */,
+				9EFFBB612290379500C7A219 /* Bold.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1144,8 +1155,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
