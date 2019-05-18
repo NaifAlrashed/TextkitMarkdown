@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol TextRepresentable {
+    var attributes: [NSAttributedStringKey: Any] { get }
+}

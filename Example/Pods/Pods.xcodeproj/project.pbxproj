@@ -34,6 +34,7 @@
 		9D1ED810162612D100883CD352021E05 /* TokenContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E09331B6A5C2076F5B2746C42B78F /* TokenContainer.swift */; };
 		9EFFBB612290379500C7A219 /* Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFBB602290379500C7A219 /* Bold.swift */; };
 		9EFFBB63229037C300C7A219 /* TextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFBB62229037C300C7A219 /* TextRepresentable.swift */; };
+		9EFFBB652290541E00C7A219 /* MarkdownTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFBB642290541E00C7A219 /* MarkdownTextStorage.swift */; };
 		A48ABF775DDC699A384A9191A373823E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AD4F971EF9FF948F2AF22677607F23 /* Foundation.framework */; };
 		AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053E6B037E5D898514336EEC8E9C152A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA30D2F337EABEF5D6ADB40D65597E0 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -138,6 +139,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EFFBB602290379500C7A219 /* Bold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bold.swift; sourceTree = "<group>"; };
 		9EFFBB62229037C300C7A219 /* TextRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRepresentable.swift; sourceTree = "<group>"; };
+		9EFFBB642290541E00C7A219 /* MarkdownTextStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextStorage.swift; sourceTree = "<group>"; };
 		A0C43537216A665A060335D2294993BB /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		ADD20B0A70073F5532F2A97A52E21549 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AE7E09331B6A5C2076F5B2746C42B78F /* TokenContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenContainer.swift; path = Sources/Lexer/TokenContainer.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 			children = (
 				9EFFBB602290379500C7A219 /* Bold.swift */,
 				9EFFBB62229037C300C7A219 /* TextRepresentable.swift */,
+				9EFFBB642290541E00C7A219 /* MarkdownTextStorage.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -707,6 +710,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EFFBB63229037C300C7A219 /* TextRepresentable.swift in Sources */,
+				9EFFBB652290541E00C7A219 /* MarkdownTextStorage.swift in Sources */,
 				1E79EE23CFCB08A8143B9642C87B87AD /* TextkitMarkdown-dummy.m in Sources */,
 				9EFFBB612290379500C7A219 /* Bold.swift in Sources */,
 			);
