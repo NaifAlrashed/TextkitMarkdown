@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TextkitMarkdown/Classes/**/*"
+  "source_files": "Sources/**/*",
+  "dependencies": {
+    "MarkdownParser": [
+      "~> 0.1.0"
+    ]
+  }
 }

@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TextkitMarkdown (0.1.0)
+  - MarkdownParser (0.1.0)
+  - TextkitMarkdown (0.1.0):
+    - MarkdownParser (~> 0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - MarkdownParser
 
 EXTERNAL SOURCES:
   TextkitMarkdown:
@@ -20,7 +23,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TextkitMarkdown: ca8a927553637fae6039c4b08aa3193089285355
+  MarkdownParser: b302ac56156e3ea1cd0e899f183feb30dcc590a7
+  TextkitMarkdown: 76f2162baa04726a2470bdf9e7dc3459d60f6b7f
 
 PODFILE CHECKSUM: 4b3c532b2bfb31398dce3499cca6243a45942004
 
